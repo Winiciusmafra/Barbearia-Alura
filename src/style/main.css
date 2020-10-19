@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #bbbb;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    /*feito isso para que o elemento nav fique absoluto em relação a caixa*/
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: rgb(209, 92, 14);
+    text-decoration: underline;
+    transition: 300ms;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.produtos li:hover {
+    border-color: rgb(209, 92, 14);
+}
+
+.produtos li:active {
+    border-color: #088c19;
+    border-width: 3px;
+}
+
+.produtos li:hover h2 {
+    font-size: 33px;
+    transition: 300ms;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao-produto {
+    font-size: 18px;
+}
+
+.preco-produto {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url(/imagens/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
