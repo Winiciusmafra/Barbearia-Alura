@@ -50,17 +50,56 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label,
+fieldset legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(209, 92, 14);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(136, 59, 8);
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 8px 15px;
+    border: 1px solid #000;
 }
 
 .produtos {
