@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
-    background: #bbbb;
+    background: #bbbb !important;
     padding: 20px;
 }
 
@@ -150,7 +154,7 @@ th {
 
 footer {
     text-align: center;
-    background: url(/imagens/bg.jpg);
+    background: url(../imagens/bg.jpg);
     padding: 40px 0;
 }
 
@@ -158,4 +162,93 @@ footer {
     color: white;
     font-size: 13px;
     margin-top: 20px;
+}
+
+
+/*CSS da pagina home*/
+
+#banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal::after {
+    content: " ]";
+}
+
+.titulo-principal::before {
+    content: "[ ";
+}
+
+.principal {
+    padding: 3em 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
